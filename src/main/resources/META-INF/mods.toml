@@ -1,51 +1,33 @@
-modLoader="javafml" #mandatory
-
-loaderVersion="[32,)"
-
+modLoader="javafml"
+loaderVersion="[34,)"
 license="All rights reserved"
-
 issueTrackerURL="https://github.com/Evoslab/Mobful-Bricks/issues"
-
-[[mods]] #mandatory
-
-modId="mobful_bricks" #mandatory
-
-version="1.0.0" #mandatory
-
-displayName="Mobful Bricks" #mandatory
-
-updateJSONURL="http://myurl.me/" #optional
-
-displayURL="http://example.com/" #optional
-
-logoFile="mobful_bricks.png" #optional
-
-credits=""
-
-authors=""
-
+[[mods]]
+modId="mobful_bricks"
+version="1.0.0"
+displayName="Mobful Bricks"
+logoFile="mobful_bricks.png"
+credits="Evo, EltrutLikes, Audako"
+authors="Evo's Lab"
 description='''
-
+Mobful Bricks
 '''
 
 [[dependencies.mobful_bricks]]
     modId="forge"
     mandatory=true
-    versionRange="[32,)"
+    versionRange="[34,)"
     ordering="NONE"
     side="BOTH"
-
 [[dependencies.mobful_bricks]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.1]"
+    versionRange="[1.16.3, 1.17)"
     ordering="NONE"
     side="BOTH"
-
 [[dependencies.mobful_bricks]]
  modId="abnormals_core"
     mandatory=true
-    versionRange="[2.0.3,)"
+    versionRange="[3.0.0,)"
     ordering="AFTER"
     side="BOTH"
-
