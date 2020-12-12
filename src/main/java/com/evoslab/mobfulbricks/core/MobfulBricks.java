@@ -3,7 +3,7 @@ package com.evoslab.mobfulbricks.core;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.evoslab.mobfulbricks.core.registry.util.MBRegistryHelper;
+import com.minecraftabnormals.abnormals_core.core.util.registry.RegistryHelper;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -18,7 +18,7 @@ public class MobfulBricks {
 
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "mobful_bricks";
-    public static final MBRegistryHelper REGISTRY_HELPER = new MBRegistryHelper(MOD_ID);
+    public static final RegistryHelper REGISTRY_HELPER = new RegistryHelper(MOD_ID);
     public static MobfulBricks instance;
     
     IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -28,8 +28,7 @@ public class MobfulBricks {
         modEventBus.addListener(this::doClientStuff);
         instance = this;
 
-        REGISTRY_HELPER.getDeferredItemRegister().register(modEventBus);
-        REGISTRY_HELPER.getDeferredBlockRegister().register(modEventBus);
+        REGISTRY_HELPER.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }

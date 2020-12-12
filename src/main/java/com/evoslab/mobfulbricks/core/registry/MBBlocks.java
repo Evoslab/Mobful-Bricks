@@ -2,8 +2,8 @@ package com.evoslab.mobfulbricks.core.registry;
 
 import com.evoslab.mobfulbricks.core.MobfulBricks;
 import com.evoslab.mobfulbricks.core.other.MBMods;
-import com.evoslab.mobfulbricks.core.registry.util.MBRegistryHelper;
-import com.teamabnormals.abnormals_core.common.blocks.AbnormalsStairsBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.AbnormalsStairsBlock;
+import com.minecraftabnormals.abnormals_core.core.util.registry.BlockSubRegistryHelper;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -17,7 +17,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 @Mod.EventBusSubscriber(modid = MobfulBricks.MOD_ID, bus = Bus.MOD)
 public class MBBlocks {
 
-    public static final MBRegistryHelper HELPER = MobfulBricks.REGISTRY_HELPER;
+    public static final BlockSubRegistryHelper HELPER = MobfulBricks.REGISTRY_HELPER.getBlockSubHelper();
 
     public static final RegistryObject<Block> BEE_BRICKS = HELPER.createBlock("bee_bricks", () -> new Block(Block.Properties.from(Blocks.STONE_BRICKS)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> BEE_BRICK_SLAB = HELPER.createBlock("bee_brick_slab", () -> new SlabBlock(Block.Properties.from(Blocks.STONE_BRICKS)), ItemGroup.BUILDING_BLOCKS);
