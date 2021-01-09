@@ -19,12 +19,14 @@ Mobful Bricks
     versionRange="[34,)"
     ordering="NONE"
     side="BOTH"
+
 [[dependencies.mobful_bricks]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.3, 1.17)"
     ordering="NONE"
     side="BOTH"
+
 [[dependencies.mobful_bricks]]
  modId="abnormals_core"
     mandatory=true
