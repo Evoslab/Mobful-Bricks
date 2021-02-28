@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/wall_inventory",
+    "textures": {
+        "wall": "mobful_bricks:block/hoglin_bricks"
+    }
+}

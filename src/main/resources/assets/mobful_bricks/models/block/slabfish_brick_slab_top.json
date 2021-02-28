@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "mobful_bricks:block/slabfish_bricks",
+    "top": "mobful_bricks:block/slabfish_bricks",
+    "side": "mobful_bricks:block/slabfish_bricks"
+  }
+}

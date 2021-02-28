@@ -1,0 +1,8 @@
+{
+    "parent": "abnormals_core:block/vertical_slab",
+    "textures": {
+        "bottom": "mobful_bricks:block/strider_bricks",
+        "top": "mobful_bricks:block/strider_bricks",
+        "side": "mobful_bricks:block/strider_bricks"
+    }
+}

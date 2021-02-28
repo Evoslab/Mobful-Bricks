@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mobful_bricks:block/strider_bricks",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "mobful_bricks:block/strider_bricks",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "mobful_bricks:block/strider_bricks"
+    },
+    "facing=west": {
+      "model": "mobful_bricks:block/strider_bricks",
+      "y": 90
+    }
+  }
+}

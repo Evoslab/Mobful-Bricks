@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mobful_bricks:block/strider_brick_slab"
+    },
+    "type=double": {
+      "model": "mobful_bricks:block/strider_bricks"
+    },
+    "type=top": {
+      "model": "mobful_bricks:block/strider_brick_slab_top"
+    }
+  }
+}

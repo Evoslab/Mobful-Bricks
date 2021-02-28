@@ -1,0 +1,8 @@
+{
+    "parent": "abnormals_core:block/vertical_slab",
+    "textures": {
+        "bottom": "mobful_bricks:block/carmen_bricks",
+        "top": "mobful_bricks:block/carmen_bricks",
+        "side": "mobful_bricks:block/carmen_bricks"
+    }
+}
