@@ -1,0 +1,16 @@
+{
+	"replace": "false",
+	"values": [
+		"mobful_bricks:bee_brick_stairs",
+		"mobful_bricks:blaze_brick_stairs",
+		"mobful_bricks:booflo_brick_stairs",
+		"mobful_bricks:carmen_brick_stairs",
+		"mobful_bricks:hoglin_brick_stairs",
+		"mobful_bricks:panda_brick_stairs",
+		"mobful_bricks:polar_bear_brick_stairs",
+		"mobful_bricks:slabfish_brick_stairs",
+		"mobful_bricks:spud_brick_stairs",
+		"mobful_bricks:steve_brick_stairs",
+		"mobful_bricks:strider_brick_stairs"
+	]
+}

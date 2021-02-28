@@ -1,0 +1,16 @@
+{
+	"replace": "false",
+	"values": [
+		"mobful_bricks:bee_brick_wall",
+		"mobful_bricks:blaze_brick_wall",
+		"mobful_bricks:booflo_brick_wall",
+		"mobful_bricks:carmen_brick_wall",
+		"mobful_bricks:hoglin_brick_wall",
+		"mobful_bricks:panda_brick_wall",
+		"mobful_bricks:polar_bear_brick_wall",
+		"mobful_bricks:slabfish_brick_wall",
+		"mobful_bricks:spud_brick_wall",
+		"mobful_bricks:steve_brick_wall",
+		"mobful_bricks:strider_brick_wall"
+	]
+}
