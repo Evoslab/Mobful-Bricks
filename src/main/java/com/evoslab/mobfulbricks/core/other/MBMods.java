@@ -4,5 +4,6 @@ public class MBMods {
 	
 	public static final String ENDERGETIC_EXPANSION = "endergetic";
 	public static final String ENVIRONMENTAL = "environmental";
+	public static final String QUARK = "quark";
 	
 }
