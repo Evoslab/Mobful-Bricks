@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+	{
+	  "item": "mobful_bricks:bee_bricks"
+	}
+  ],
+  "result": "mobful_bricks:bee_brick_wall",
+  "count": 1
+}

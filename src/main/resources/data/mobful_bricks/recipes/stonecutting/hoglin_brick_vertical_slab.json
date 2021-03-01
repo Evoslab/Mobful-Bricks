@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+	{
+	  "item": "mobful_bricks:hoglin_bricks"
+	}
+  ],
+  "result": "mobful_bricks:hoglin_brick_vertical_slab",
+  "count": 2,
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "vertical_slabs"
+    }
+  ]
+}

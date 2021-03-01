@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+	{
+	  "item": "mobful_bricks:panda_bricks"
+	}
+  ],
+  "result": "mobful_bricks:panda_brick_slab",
+  "count": 2
+}

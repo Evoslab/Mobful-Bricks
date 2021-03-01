@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+	{
+	  "item": "mobful_bricks:spud_bricks"
+	}
+  ],
+  "result": "mobful_bricks:spud_brick_wall",
+  "count": 1
+}

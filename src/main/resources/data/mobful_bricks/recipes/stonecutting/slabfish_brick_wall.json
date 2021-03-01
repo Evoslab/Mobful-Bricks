@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+	{
+	  "item": "mobful_bricks:slabfish_bricks"
+	}
+  ],
+  "result": "mobful_bricks:slabfish_brick_wall",
+  "count": 1,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "mod": "environmental"
+    }
+  ]
+}

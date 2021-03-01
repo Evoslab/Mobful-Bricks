@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "mobful_bricks:booflo_brick_slab"
+    }
+  },
+  "result": {
+    "item": "mobful_bricks:booflo_brick_vertical_slab",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "vertical_slabs"
+    },
+	{
+	  "type": "forge:mod_loaded",
+	  "mod": "endergetic"
+	}
+  ]
+}

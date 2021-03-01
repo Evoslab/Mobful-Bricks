@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mobful_bricks:blaze_bricks"
+    }
+  },
+  "result": {
+    "item": "mobful_bricks:blaze_brick_stairs",
+    "count": 4
+  }
+}

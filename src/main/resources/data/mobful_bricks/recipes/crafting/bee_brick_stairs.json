@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mobful_bricks:bee_bricks"
+    }
+  },
+  "result": {
+    "item": "mobful_bricks:bee_brick_stairs",
+    "count": 4
+  }
+}
