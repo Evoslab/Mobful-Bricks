@@ -12,8 +12,8 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber(modid = MobfulBricks.MOD_ID)
 public class MBTrades {
 	
-	public static final int EMERALDS = 4;
-	public static final int BLOCKS = 16;
+	public static final int EMERALDS = 8;
+	public static final int BLOCKS = 32;
 
 	@SubscribeEvent
 	public static void onWandererTradesEvent(final WandererTradesEvent event) {
