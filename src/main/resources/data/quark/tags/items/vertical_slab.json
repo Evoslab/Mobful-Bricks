@@ -1,0 +1,16 @@
+{
+	"replace": "false",
+	"values": [
+		"mobful_bricks:bee_brick_vertical_slab",
+		"mobful_bricks:blaze_brick_vertical_slab",
+		"mobful_bricks:booflo_brick_vertical_slab",
+		"mobful_bricks:carmen_brick_vertical_slab",
+		"mobful_bricks:hoglin_brick_vertical_slab",
+		"mobful_bricks:panda_brick_vertical_slab",
+		"mobful_bricks:polar_bear_brick_vertical_slab",
+		"mobful_bricks:slabfish_brick_vertical_slab",
+		"mobful_bricks:spud_brick_vertical_slab",
+		"mobful_bricks:steve_brick_vertical_slab",
+		"mobful_bricks:strider_brick_vertical_slab"
+	]
+}
